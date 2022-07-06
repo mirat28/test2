@@ -1,0 +1,6 @@
+    {% for el in quotes %}
+        <div class="alert alert-warning mt-2">
+                <h3>{{ el.text}}</h3>
+            <p>{{ el.quote_author}}</p>
+        </div>
+        {% endfor %}
